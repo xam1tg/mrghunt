@@ -46,12 +46,6 @@ summary {
     background-color: transparent;
 }
 
-figcaption {
-    margin: 1px;
-    margin-right: 0;
-    font-size: 17px;
-}
-
 hr {   
     border-top: 2px solid #B7C4BC;
     background: black;
@@ -137,7 +131,7 @@ footer pre:last-child {
     white-space: pre-wrap;
     margin-top: 0;
     padding-top: 0;
-    order: 3;
+    order: 4;
 }
 .about-mrg img {
     grid-column: 2;
@@ -148,6 +142,12 @@ footer pre:last-child {
     height: auto;
     object-fit: cover;
     order: 2; 
+}
+.about-mrg figcaption {
+    margin: 1px;
+    margin-right: 0;
+    font-size: 17px;
+    order: 3
 }
 
 a {
