@@ -70,12 +70,19 @@ body {
     margin: 3px;
 }
 .header-h1 {
-    margin: 10px; 
+    text-align: center;
+    color: #1a1d20;}
+.header-h2 {
+    text-align: center;
+    color: #1a1d20;}
+.header-pre {
     color: #1a1d20;
-}
-.header h1 {
-    color: #1a1d20;
-}
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 17px;}
 
 .sost-mrg {
     color: white;
