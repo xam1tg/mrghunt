@@ -145,6 +145,7 @@ footer pre:last-child {
     width: 200px;
     height: auto;
     object-fit: cover;
+    order: -1; 
 }
 
 a {
