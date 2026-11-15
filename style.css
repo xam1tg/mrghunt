@@ -126,10 +126,11 @@ footer pre:last-child {
     grid-column: 1;
     grid-row: 2;
     margin: 0;
+    margin-top: 0;
     padding: 0 20px 0 0; 
+    padding-top: 0;
     font-size: 17px;
     white-space: pre-wrap;
-    margin-top: 0;
     padding-top: 0;
     order: 4;
     font-family: inherit;
@@ -147,9 +148,10 @@ footer pre:last-child {
 .about-mrg figcaption {
     margin: 1px;
     margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 12px;
     font-size: 17px;
     order: 3;
-    margin-top: 20px
 }
 
 a {
