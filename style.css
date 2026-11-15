@@ -126,6 +126,7 @@ footer pre:last-child {
     grid-row: 1;
     margin: 0 0 15px 0; 
     color: #1a1d20;
+    order: 1;
 }
 .about-mrg pre {
     grid-column: 1;
@@ -136,6 +137,7 @@ footer pre:last-child {
     white-space: pre-wrap;
     margin-top: 0;
     padding-top: 0;
+    order: 3;
 }
 .about-mrg img {
     grid-column: 2;
@@ -145,7 +147,7 @@ footer pre:last-child {
     width: 200px;
     height: auto;
     object-fit: cover;
-    order: -1; 
+    order: 2; 
 }
 
 a {
