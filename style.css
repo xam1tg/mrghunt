@@ -2,6 +2,15 @@
     box-sizing: border-box;}
 
 
+@media (max-width: 768px) {
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;}}
+
+
 details {
     background-color: #1b2838;
     transition: background-color 0.2s ease;}
