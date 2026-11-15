@@ -132,7 +132,6 @@ footer pre:last-child {
     margin-top: 0;
     padding-top: 0;
     order: 4;
-    margin-top: 5px;
     font-family: inherit;
 }
 .about-mrg img {
@@ -149,7 +148,8 @@ footer pre:last-child {
     margin: 1px;
     margin-right: 0;
     font-size: 17px;
-    order: 3
+    order: 3;
+    margin-top: 20px
 }
 
 a {
