@@ -54,6 +54,8 @@ body {
     margin: 0;
     padding: 0;
     background: #ffffff;
+    max-width: 100%;
+    overflow-x: hidden;
     color: #222222;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 .body h1 {
