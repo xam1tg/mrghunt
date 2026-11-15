@@ -132,6 +132,8 @@ footer pre:last-child {
     margin-top: 0;
     padding-top: 0;
     order: 4;
+    margin-top: 5px;
+    font-family: inherit;
 }
 .about-mrg img {
     grid-column: 2;
