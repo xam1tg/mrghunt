@@ -76,13 +76,15 @@ body {
     text-align: center;
     color: #1a1d20;}
 .header-pre {
-    color: #1a1d20;
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    font-weight: bold;
-    font-size: 17px;}
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    white-space: pre-wrap;      
+    overflow-wrap: break-word;   
+    max-width: 100%;             
+    box-sizing: border-box;      
+    padding-inline: 16px;        
+}
 
 .sost-mrg {
     color: white;
